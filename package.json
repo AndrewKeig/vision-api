@@ -1,10 +1,22 @@
 {
   "name": "vision-api",
-  "version": "0.0.0",
-  "private": true,
+  "description": "This module contains the source code for Advanced Express Web Application Development.",
+  "homepage": "https://github.com/AndrewKeig/vision-api",
+  "version": "0.0.1",
+  "author": {
+    "name": "Andrew Keig",
+    "email": "andrew.keig@gmail.com"
+  },
   "scripts": {
     "start": "node app.js",
     "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewkeig/vision-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndrewKeig/vision-api/issues"
   },
   "dependencies": {
     "vision-core": "git://github.com/AndrewKeig/vision-core.git#master",
@@ -24,5 +36,9 @@
     "grunt-jscoverage": "0.0.3",
     "grunt-cafe-mocha": "~0.1.6",
     "grunt-env": "~0.4.0"
-  }
+  },
+  "keywords": [
+    "express",
+    "boilerplate"
+  ]
 }
